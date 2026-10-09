@@ -1,0 +1,19 @@
+{
+  "name": "developer-portfolio-workspace",
+  "version": "1.0.0",
+  "description": "Production-Ready Full-Stack Developer Portfolio (React + Node + Express + MongoDB + TypeScript)",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "build": "npm run build:server && npm run build:client",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": ["portfolio", "react", "express", "typescript", "mongodb", "swagger"],
+  "author": "Alex Rivera",
+  "license": "MIT"
+}
